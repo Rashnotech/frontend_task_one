@@ -1,0 +1,9 @@
+.profile {
+    border: 1px solid #DDD;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
