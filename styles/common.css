@@ -10,3 +10,13 @@ body{
     width: 50%;
     padding: 2rem;
 }
+@media screen and (min-width: 300px) and (max-width:767px) {
+    .container{
+        width: 90%;
+        padding: 1rem;
+    }
+    .profile {
+        height: 70vh;
+        padding: 1rem;
+    }
+}
