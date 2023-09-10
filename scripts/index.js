@@ -1,7 +1,7 @@
 dt = new Date()
 days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thurdsay", "Friday", "Saturday"]
 day = days[dt.getUTCDay()]
-time = dt.getTime()
+time = dt.toISOString()
 
 current_day = document.querySelector('.current_day')
 current_time = document.querySelector('.current_time')
